@@ -1,3 +1,31 @@
+
+Notes
+-using the useEffect hook and async/await to fetch character data from breakingbadApi.com
+
+-while the data is being fetched or “loading”, the isLoading state is true, and the spinner icon is put in the character grid
+
+-once the data is fetched, the items state is updated with an array of all the character data, and the isLoading state is false….which in turn, loads the character data in the character grid instead of the spinner icon
+
+-the useEffect hook also uses “query” as a dependency, so whenever someone types something in the search, query “changes”, which in turn fires off the useEffect hook again, and loads the filtered character data according to whatever name is typed in query
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
