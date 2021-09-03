@@ -9,12 +9,12 @@ const Search = ({ getQuery }) => {
   };
 
   return (
-    <section className="search">
+    <section className='search'>
       <form>
         <input
-          type="text"
-          className="form-control"
-          placeholder="Search characters"
+          type='text'
+          className='form-control'
+          placeholder='Search characters'
           value={text}
           onChange={(e) => onChange(e.target.value)}
           autoFocus
